@@ -1,0 +1,321 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(502,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(503,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\include\atlcore.h(659,2): warning C4191: 'reinterpret_cast': unsafe conversion from 'FARPROC' to 'BOOL (__cdecl *)(DWORD)'
+          Making a function call using the resulting pointer may cause your program to fail
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\include.h(11,1): warning C4005: '_WIN32_WINNT': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\sdkddkver.h(224,1): message : see previous definition of '_WIN32_WINNT'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(93,65): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(154,41): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'T *' to 'LPCWSTR'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(154,57): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\libloaderapi.h(244,1): message : see declaration of 'GetModuleHandleW'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(154,41): message : while trying to match the argument list '(T *)'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(202,18): error C2665: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare': no overloaded function could convert all the argument types
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(4812,33): message : could be 'int std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(const _Elem *const ) noexcept const'
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(202,18): message : 'int std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(const _Elem *const ) noexcept const': cannot convert argument 1 from 'WCHAR [260]' to 'const _Elem *const '
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(202,38): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(4779,33): message : or       'int std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(const unsigned __int64,const unsigned __int64,const _StringViewIsh &,const unsigned __int64,const unsigned __int64) const'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(202,18): message : 'int std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(const unsigned __int64,const unsigned __int64,const _StringViewIsh &,const unsigned __int64,const unsigned __int64) const': expects 5 arguments - 1 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(4770,33): message : or       'int std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(const unsigned __int64,const unsigned __int64,const _StringViewIsh &) const'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(202,18): message : 'int std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(const unsigned __int64,const unsigned __int64,const _StringViewIsh &) const': expects 3 arguments - 1 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(4761,33): message : or       'int std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(const _StringViewIsh &) noexcept(<expr>) const'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(202,5): message : 'int std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(const _StringViewIsh &) noexcept(<expr>) const': could not deduce template argument for '__formal'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(202,18): message : while trying to match the argument list '(WCHAR [260])'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(210,19): error C2665: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare': no overloaded function could convert all the argument types
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(4812,33): message : could be 'int std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(const _Elem *const ) noexcept const'
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(210,19): message : 'int std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(const _Elem *const ) noexcept const': cannot convert argument 1 from 'WCHAR [260]' to 'const _Elem *const '
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(210,39): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(4779,33): message : or       'int std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(const unsigned __int64,const unsigned __int64,const _StringViewIsh &,const unsigned __int64,const unsigned __int64) const'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(210,19): message : 'int std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(const unsigned __int64,const unsigned __int64,const _StringViewIsh &,const unsigned __int64,const unsigned __int64) const': expects 5 arguments - 1 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(4770,33): message : or       'int std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(const unsigned __int64,const unsigned __int64,const _StringViewIsh &) const'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(210,19): message : 'int std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(const unsigned __int64,const unsigned __int64,const _StringViewIsh &) const': expects 3 arguments - 1 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(4761,33): message : or       'int std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(const _StringViewIsh &) noexcept(<expr>) const'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(210,6): message : 'int std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(const _StringViewIsh &) noexcept(<expr>) const': could not deduce template argument for '__formal'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(210,19): message : while trying to match the argument list '(WCHAR [260])'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(385,11): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'T *' to 'LPCWSTR'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(385,28): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(10072,1): message : see declaration of 'FindWindowW'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(385,11): message : while trying to match the argument list '(int, T *)'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(389,11): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'T *' to 'LPCWSTR'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(389,28): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(10072,1): message : see declaration of 'FindWindowW'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(389,11): message : while trying to match the argument list '(int, T *)'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(393,11): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'T *' to 'LPCWSTR'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(393,28): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(10072,1): message : see declaration of 'FindWindowW'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(393,11): message : while trying to match the argument list '(int, T *)'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(397,11): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'T *' to 'LPCWSTR'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(397,28): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(10072,1): message : see declaration of 'FindWindowW'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(397,11): message : while trying to match the argument list '(int, T *)'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(405,11): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'T *' to 'LPCWSTR'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(405,28): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(10072,1): message : see declaration of 'FindWindowW'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(405,11): message : while trying to match the argument list '(int, T *)'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(433,11): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'T *' to 'LPCWSTR'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(433,28): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(10072,1): message : see declaration of 'FindWindowW'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(433,11): message : while trying to match the argument list '(int, T *)'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(437,11): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'T *' to 'LPCWSTR'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(437,28): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(10072,1): message : see declaration of 'FindWindowW'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(437,11): message : while trying to match the argument list '(int, T *)'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(441,11): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'T *' to 'LPCWSTR'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(441,28): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(10072,1): message : see declaration of 'FindWindowW'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(441,11): message : while trying to match the argument list '(int, T *)'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(445,11): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'T *' to 'LPCWSTR'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(445,28): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(10072,1): message : see declaration of 'FindWindowW'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(445,11): message : while trying to match the argument list '(int, T *)'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(449,11): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'T *' to 'LPCWSTR'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(449,28): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(10072,1): message : see declaration of 'FindWindowW'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(449,11): message : while trying to match the argument list '(int, T *)'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(453,11): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'T *' to 'LPCWSTR'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(453,28): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(10072,1): message : see declaration of 'FindWindowW'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(453,11): message : while trying to match the argument list '(int, T *)'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(461,11): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'T *' to 'LPCWSTR'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(461,28): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(10072,1): message : see declaration of 'FindWindowW'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(461,11): message : while trying to match the argument list '(int, T *)'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(465,11): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'T *' to 'LPCWSTR'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(465,28): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(10072,1): message : see declaration of 'FindWindowW'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(465,11): message : while trying to match the argument list '(int, T *)'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(478,4): error C2440: 'initializing': cannot convert from 'T *' to 'const TCHAR *'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(478,4): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(479,4): error C2440: 'initializing': cannot convert from 'T *' to 'const TCHAR *'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(479,4): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(480,4): error C2440: 'initializing': cannot convert from 'T *' to 'const TCHAR *'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(480,4): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(487,18): error C2440: 'initializing': cannot convert from 'const char [1]' to 'TCHAR [256]'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(487,18): message : The type of the string literal is not compatible with the type of the array
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(583,96): error C2065: 'L': undeclared identifier
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(583,96): error C2059: syntax error: ']'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(583,96): error C2143: syntax error: missing ';' before '{'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(583,96): error C2143: syntax error: missing ')' before ';'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(583,96): error C2059: syntax error: ')'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(583,117): error C2059: syntax error: ')'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(583,120): error C2065: 'crypted': undeclared identifier
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(583,96): error C2562: 'CheckProcessDebugFlags': 'void' function returning a value
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(575,6): message : see declaration of 'CheckProcessDebugFlags'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(583,120): error C2059: syntax error: ')'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(583,151): error C2059: syntax error: ')'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(586,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(586,45): error C2065: 'NoDebugInherit': undeclared identifier
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(586,68): error C2065: 'NoDebugInherit': undeclared identifier
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(586,11): error C3861: 'NtQIP': identifier not found
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(588,2): error C2059: syntax error: 'if'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(588,28): error C2143: syntax error: missing ';' before '{'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(588,28): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(590,2): error C2059: syntax error: 'if'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(591,2): error C2143: syntax error: missing ';' before '{'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(591,2): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(595,2): error C2059: syntax error: 'else'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(595,7): error C2143: syntax error: missing ';' before '{'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(595,7): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(596,1): error C2059: syntax error: '}'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(596,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(599,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(599,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(704,96): error C2065: 'L': undeclared identifier
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(704,96): error C2059: syntax error: ']'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(704,96): error C2143: syntax error: missing ';' before '{'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(704,96): error C2143: syntax error: missing ')' before ';'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(704,96): error C2059: syntax error: ')'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(704,117): error C2059: syntax error: ')'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(704,120): error C2065: 'crypted': undeclared identifier
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(704,96): error C2562: 'CheckProcessDebugPort': 'void' function returning a value
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(697,6): message : see declaration of 'CheckProcessDebugPort'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(704,120): error C2059: syntax error: ')'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(704,151): error C2059: syntax error: ')'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(706,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(706,2): error C2374: 'Status': redefinition; multiple initialization
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(586,2): message : see declaration of 'Status'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(706,44): error C2065: 'DebugPort': undeclared identifier
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(706,62): error C2065: 'DebugPort': undeclared identifier
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(706,75): error C2065: 'ReturnSize': undeclared identifier
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(706,11): error C3861: 'NtQIP': identifier not found
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(708,2): error C2059: syntax error: 'if'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(708,28): error C2143: syntax error: missing ';' before '{'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(708,28): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(710,2): error C2059: syntax error: 'if'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(711,2): error C2143: syntax error: missing ';' before '{'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(711,2): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(716,2): error C2059: syntax error: 'else'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(716,7): error C2143: syntax error: missing ';' before '{'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(716,7): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(717,1): error C2059: syntax error: '}'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(717,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(719,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(719,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(783,2): error C3861: 'killdbg': identifier not found
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\update.h(784,2): error C3861: 'CheckProcessDebugObjectHandle': identifier not found
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\main.cpp(109,56): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\main.cpp(222,2): error C2664: 'HINSTANCE ShellExecuteW(HWND,LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR,INT)': cannot convert argument 2 from 'const char [5]' to 'LPCWSTR'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\main.cpp(222,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\shellapi.h(96,22): message : see declaration of 'ShellExecuteW'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\main.cpp(222,2): message : while trying to match the argument list '(int, const char [5], const char [12], int, int, int)'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\main.cpp(223,24): error C2664: 'unsigned long utilities::getPID(const TCHAR *)': cannot convert argument 1 from 'T *' to 'const TCHAR *'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\main.cpp(223,31): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\main.cpp(76,10): message : see declaration of 'utilities::getPID'
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\main.cpp(223,24): message : while trying to match the argument list '(T *)'
+          with
+          [
+              T=char
+          ]
+C:\Users\blkad\Downloads\WZ2 UD INJECTOR +  KEYAUTH\loader2\main.cpp(224,61): error C3536: 'pId': cannot be used before it is initialized
